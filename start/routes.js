@@ -19,3 +19,5 @@ const GraphQLServer = use('Adonis/Addons/GraphQLServer')
 Route.route('/', function (context) {
   return GraphQLServer.handle(context)
 }, ['GET', 'POST'])
+
+Route.get('/graphiql', async ({view}) => view.render('graphiql'))

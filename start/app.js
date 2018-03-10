@@ -15,7 +15,7 @@ const providers = [
   '@adonisjs/bodyparser/providers/BodyParserProvider',
   '@adonisjs/lucid/providers/LucidProvider',
   '@adonisjs/validator/providers/ValidatorProvider',
-
+  '@adonisjs/framework/providers/ViewProvider',
   'adonis-graphql/providers/GraphQLProvider',
 ]
 
